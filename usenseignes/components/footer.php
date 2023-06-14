@@ -1,4 +1,4 @@
- <!-- Footer Start -->
+ 
  <div class="footer">
             <div class="container">
                 <div class="row">
@@ -18,10 +18,9 @@
                         <div class="footer-link">
                             <h2>Liens populaire</h2>
                             <a href="about.php">Qui sommes nous ? </a>
-                            <a href="contact.php">Contacter nous</a>
                             <a href="produits.php">Produits</a>
-                            <a href="event.php">Évènements</a>
-                            <a href="blog.php">Blog</a>
+                            <a href="contact.php">Contacter nous</a>
+                            <a href="blog.php">Connectez-vous</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -31,7 +30,6 @@
                             <a href="">Politique de confidentialité</a>
                             <a href="">Cookies</a>
                             <a href="">Aide</a>
-                            <a href="">FAQ</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -57,4 +55,3 @@
                 </div>
             </div>
         </div>
-        <!-- Footer End -->

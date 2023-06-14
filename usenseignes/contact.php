@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title>US.ENSEIGNES TROYES</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+        <meta name="keywords" content="pose d'enseigne, conception de logo, entreprises, Troyes, Aube">
+        <meta name="description" content="Nous sommes spécialisés dans la pose d'enseignes et la conception de logos pour les entreprises à Troyes, Aube. Contactez-nous pour des services de qualité et des solutions créatives.">
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -20,8 +20,11 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
+        
+        <!-- Style perso Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/stylenavbar.css" rel="stylesheet">
+        <link href="css/stylefooter.css" rel="stylesheet">
     </head>
 
     <body>

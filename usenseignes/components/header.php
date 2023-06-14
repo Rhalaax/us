@@ -18,7 +18,7 @@ function isLinkActive($current_page, $page_link)
     return ($current_page === $page_link) ? 'active' : '';
 }
 ?>
-  <!-- Top Bar Start -->
+  
   <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
@@ -45,9 +45,8 @@ function isLinkActive($current_page, $page_link)
                 </div>
             </div>
         </div>
-        <!-- Top Bar End -->
+      
 
-<!-- Nav Bar Start -->
 <div class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
         <a href="index.php" class="navbar-brand">US.ENSEIGNES</a>
@@ -73,6 +72,15 @@ function isLinkActive($current_page, $page_link)
                 if (isset($_SESSION['username'])) {
                     // L'utilisateur est connecté, affichez le bouton de déconnexion
                     echo '<a href="logout.php" class="nav-item nav-link">Déconnexion</a>';
+                    
+                    // Vérification du rôle de l'utilisateur
+                    if ($_SESSION['role'] === 'admin') {
+                        // L'utilisateur a le rôle "admin", affichez le lien vers la page admin.php
+                        echo '<a href="admin.php" class="nav-item nav-link">Admin</a>';
+                    } else {
+                        // L'utilisateur a le rôle "client", affichez le lien vers la page profil.php
+                        echo '<a href="client.php" class="nav-item nav-link">Profil</a>';
+                    }
                 } else {
                     // L'utilisateur n'est pas connecté, affichez le bouton de connexion
                     echo '<a href="connexion.php" class="nav-item nav-link">Connexion</a>';
@@ -82,4 +90,4 @@ function isLinkActive($current_page, $page_link)
         </div>
     </div>
 </div>
-<!-- Nav Bar End -->
+

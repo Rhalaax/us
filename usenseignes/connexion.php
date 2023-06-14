@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title>US.ENSEIGNES TROYES - Connexion</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+        <meta name="keywords" content="pose d'enseigne, conception de logo, entreprises, Troyes, Aube">
+        <meta name="description" content="Nous sommes spécialisés dans la pose d'enseignes et la conception de logos pour les entreprises à Troyes, Aube. Contactez-nous pour des services de qualité et des solutions créatives.">
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -20,8 +20,11 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
+        
+        <!-- Style perso Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/stylenavbar.css" rel="stylesheet">
+        <link href="css/stylefooter.css" rel="stylesheet">
     </head>
 
     <body>
@@ -48,7 +51,8 @@
             </div>
         </div>
         <!-- Page Header End -->
-        
+
+
         <!-- formulaire de connexion start -->
     <div class="section-header">
         <h2>Connexion</h2>
@@ -59,24 +63,12 @@
             <input type="text" id="username" name="username" required><br><br>
             <label for="password">Mot de passe:</label>
             <input type="password" id="password" name="password" required><br><br>
-            <input type="submit" value="Se connecter">
+            <input type="submit" value="Se connecter"><br><br>
+            <a href="registrer.php">S'inscrire cliquer-ici</a>
+            
         </form>
     </div>
-    <div class="section-header">
-        <h2>Inscription</h2>
-    </div>
-    <div class="form-container">
-        <form action="register.php" method="POST">
-            <label for="username">Nom d'utilisateur:</label>
-            <input type="text" id="username" name="username" required><br><br>
-            <label for="password">Mot de passe:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <input type="submit" value="S'inscrire">
-        </form>
-    </div>
-<!-- Formulaire de connexion end -->
+  
 
       <!-- Footer Start -->
 <?php include "components/footer.php"; ?>
@@ -104,7 +96,8 @@
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
+        <!-- Script perso Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/buttonregistration.js"></script>
     </body>
 </html>

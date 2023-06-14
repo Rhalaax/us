@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <title>US.ENSEIGNES TROYES</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+        <meta name="keywords" content="pose d'enseigne, conception de logo, entreprises, Troyes, Aube">
+        <meta name="description" content="Nous sommes spécialisés dans la pose d'enseignes et la conception de logos pour les entreprises à Troyes, Aube. Contactez-nous pour des services de qualité et des solutions créatives.">
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -21,8 +21,11 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-        <!-- Style css -->
+        
+        <!-- Style perso Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/stylenavbar.css" rel="stylesheet">
+        <link href="css/stylefooter.css" rel="stylesheet">
     </head>
 
     <body>
@@ -170,12 +173,13 @@
                             </div>
                         </div>
                     </div>
-        </div>
+                </div>
+          </div>
         <!-- Service End -->
         
         
         <!-- Facts Start -->
-        <div class="facts" data-parallax="scroll" data-image-src="img/facts.jpg">
+        <div class="facts" data-parallax="scroll" data-image-src="https://www.itinera-magica.com/wp-content/uploads/nice-36-1024x683.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -228,8 +232,8 @@
         <div class="testimonial">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Testimonial</p>
-                    <h2>What people are talking about our charity activities</h2>
+                    <p>Témoignage</p>
+                    <h2>Ce que les gens disent de nos activités</h2>
                 </div>
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">

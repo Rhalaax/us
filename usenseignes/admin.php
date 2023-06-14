@@ -1,8 +1,12 @@
 <?php
 include 'controller/config.php';
 session_start();
-// Vérification du rôle de l'utilisateur
-$role = "admin"; // Remplacez cette ligne par la logique pour obtenir le rôle de l'utilisateur
+$role = ""; // Initialisez la variable du rôle de l'utilisateur
+
+// Vérification si l'utilisateur est connecté et récupération du rôle
+if (isset($_SESSION['role'])) {
+    $role = $_SESSION['role'];
+}
 
 // Vérification si l'utilisateur a le rôle "admin"
 if ($role !== "admin") {
@@ -10,6 +14,7 @@ if ($role !== "admin") {
     header("Location: index.php"); // Redirection vers la page d'accueil par exemple
     exit(); // Assurez-vous d'ajouter cette ligne pour terminer le script après la redirection
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -17,8 +22,8 @@ if ($role !== "admin") {
         <meta charset="utf-8">
         <title>ADMIN US.ENSEIGNES</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+        <meta name="keywords" content="pose d'enseigne, conception de logo, entreprises, Troyes, Aube">
+        <meta name="description" content="Nous sommes spécialisés dans la pose d'enseignes et la conception de logos pour les entreprises à Troyes, Aube. Contactez-nous pour des services de qualité et des solutions créatives.">
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -33,8 +38,11 @@ if ($role !== "admin") {
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-        <!-- style Stylesheet -->
+        
+        <!-- Style perso Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/stylenavbar.css" rel="stylesheet">
+        <link href="css/stylefooter.css" rel="stylesheet">
     </head>
 
     <body>
